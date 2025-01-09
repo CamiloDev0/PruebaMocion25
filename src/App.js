@@ -1,11 +1,10 @@
 import React from 'react';
-import Maze from './components/maze';
+import TempMaze from './components/TempMaze';
 
 function App() {
     return (
         <div>
-            <h1 style={{ textAlign: 'center' }}>Multiplayer Maze Game</h1>
-            <Maze />
+            <TempMaze />
         </div>
     );
 }
